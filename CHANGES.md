@@ -5,6 +5,7 @@ Change Log
 * Improved handling of primitives with different attributes using the same material. Materials are now duplicated. [#163](https://github.com/AnalyticalGraphicsInc/obj2gltf/pull/163)
 * Fixed a bug where primitives without texture coordinates could use materials containing textures. Those textures are now removed. [#163](https://github.com/AnalyticalGraphicsInc/obj2gltf/pull/163)
 * Improved parsing of faces with mismatching attributes. [#163](https://github.com/AnalyticalGraphicsInc/obj2gltf/pull/163)
+* Improved handling of materials with alpha. If the alpha value is 0.0 it is now treated as 1.0. [#164](https://github.com/AnalyticalGraphicsInc/obj2gltf/pull/164)
 
 ### 1.3.4 2018-10-16
 
