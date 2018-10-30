@@ -55,7 +55,6 @@ describe('createGltf', function() {
                 .then(function(data) {
                     mixedAttributesObjData = data;
                 })
-
         ]).then(done);
     });
 
